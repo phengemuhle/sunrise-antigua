@@ -1,0 +1,46 @@
+$color1: hsla(208%, 52%, 58%, 1);
+$color2: hsla(106%, 57%, 33%, 1);
+$color3: hsla(53%, 84%, 62%, 1);
+$color4: hsla(42%, 100%, 91%, 1);
+$color5: hsla(1%, 79%, 48%, 1);
+$body-bg: transparent; 
+
+.tikalBody {
+    background: url(./images/largeTikal.png) no-repeat center center fixed ; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+}
+.headerBody {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: $color1;
+    height: 10em;
+    width: 100%;
+    margin-top: -1.4em;
+}
+.sunriseLogo {
+    background: url(/images/sunriseLogo.png);
+    display: flex;
+    height: 7em;
+    width: 7em;
+    margin-top: 1em;
+    margin-left: 2em;
+}
+.footerBody {
+    display: flex;
+    align-self: flex-end;
+    align-items: center;
+    justify-content: center;
+    background: $color1;
+    height: 10em;
+    width: 100%;
+    margin-top: 27em;
+}
+.app {
+    display: inline-block;
+    
+}
